@@ -7,7 +7,7 @@ Tested on Debian / Kali
  
 
 
-$ Make it executable__
+$ Make it executable___
 chmod +x macchanger.sh
 
 
