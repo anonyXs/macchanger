@@ -20,14 +20,14 @@ fi
 
 
 DIR="/sys/class/net/$IF/"
-ifcolor='\033[0;32m'
 
 if [ -d "$DIR" ]; then
+        ifcolor=$green
         OLDMAC=$(cat /sys/class/net/$IF/address)
         IFERR=""
 else
         if [ $IF != "" ] && [ $IF != "-" ]; then
-                ifcolor=$nocolor
+                ifcolor=$red
                 IFERR="${red}Interface not existing!${nocolor}"
                 echo ""
         fi
