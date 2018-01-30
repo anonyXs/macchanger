@@ -1,17 +1,17 @@
 # Tools and Scripts
 
-**macchanger** allows you changing your current MAC of any interface.
-</br>
+__macchanger__ allows you changing your current MAC of any interface.
+  
 Works with many Linux distributions.
-</br >
+  
 Tested on Debian / Kali
-</br >
-</br >
-**$ Make it executable**
-</br >
+  
+  
+__$ Make it executable__
+  
 > chmod +x macchanger.sh
-</br >
-</br >
-**$ Usage**
-</br >
+  
+  
+__$ Usage__
+  
 > ./macchanger \<INTERFACE> \<NEW-MAC XX:XX:XX:XX:XX:XX>  
