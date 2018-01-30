@@ -60,9 +60,6 @@ if [ $# -eq 2 ] && [ $OLDMAC != "-" ]; then
                 echo "Please enter a valid MAC!"
         fi
 else
-#       if [ "$IF" == "-" ] || [ "$MAC" == "-" ]; then
-#               printf "\n${red}Please specify a MAC-Adress to set${nocolor}\n"
-#       fi
         echo ""
         printf "${bold}USAGE${nocolor}\n"
         printf "   ${bold}./macchanger ${yellow}<INTERFACE> <NEW-MAC XX:XX:XX:XX:XX:XX>${nocolor}\n"
